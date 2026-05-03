@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chua Jia Yang</title>
+  <meta name="description" content="Chua Jia Yang — Data Scientist at DBS Bank, M.S. Computer Science at Georgia Tech." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <script>
+    (function () {
+      try {
+        var t = localStorage.getItem('theme');
+        if (t === 'dark') document.documentElement.setAttribute('data-theme', 'dark');
+      } catch (e) {}
+    })();
+  </script>
+</head>
+<body>
+  <nav class="nav">
+    <div class="nav-inner">
+      <a href="#top" class="nav-logo">jy</a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li>
+          <button class="theme-toggle" type="button" aria-label="Toggle theme" title="Toggle theme">
+            <span class="theme-icon">☾</span>
+          </button>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <header id="top" class="hero">
+    <div class="hero-inner">
+      <h1 class="hero-name">Chua Jia Yang</h1>
+      <p class="hero-tag">
+        Data scientist building production <span class="hl">ML &amp; GenAI</span> systems.
+        Pursuing an M.S. in CS at <span class="hl">Georgia Tech</span>.
+      </p>
+      <div class="hero-meta">
+        <span>Singapore</span>
+        <span class="sep">·</span>
+        <a href="mailto:jiayangchua@hotmail.com">Email</a>
+        <span class="sep">·</span>
+        <a href="https://github.com/jiayang97" target="_blank" rel="noopener">GitHub</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="about" class="section">
+      <div class="section-inner">
+        <h2 class="section-title">About</h2>
+        <div class="prose">
+          <p>
+            I'm a data scientist who likes building things that ship — models that wake up
+            every morning and do useful work for real users. My interests sit across
+            <em>production ML at scale</em>, <em>reinforcement learning</em>, and
+            <em>applied LLMs</em>.
+          </p>
+          <p>
+            Outside of work, I'm doing my M.S. in Computer Science at Georgia Tech, build
+            side projects on the weekend, and unwind with chess (currently around
+            <strong>1800 on chess.com</strong>) and basketball.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="work" class="section section-alt">
+      <div class="section-inner">
+        <h2 class="section-title">Work</h2>
+        <div class="prose">
+          <p>
+            <strong>DBS Bank</strong> · Associate, Data Scientist · 2022 — Present
+          </p>
+          <p>
+            Currently working on ML and GenAI applications for consumer banking. I
+            <strong>build, train, and maintain a portfolio of propensity models</strong>
+            that identify which customers are most likely to take up the bank's products —
+            surfacing <strong>hundreds of thousands of leads daily</strong> so marketing
+            teams can send the right offers to the right people. I continuously evolve
+            the pipeline with new models, features, and capabilities, and also work on
+            applied <strong>generative AI tooling</strong> alongside the core ML stack.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="education" class="section">
+      <div class="section-inner">
+        <h2 class="section-title">Education</h2>
+
+        <div class="school">
+          <div class="prose">
+            <p>
+              <strong>Georgia Institute of Technology</strong> · M.S. Computer Science · 2025 — 2027
+            </p>
+          </div>
+
+          <ul class="course-list">
+            <li class="course">
+              <div class="course-head">
+                <span class="course-code">CS6601</span>
+                <span class="course-name">Artificial Intelligence</span>
+              </div>
+              <p class="course-desc">A foundations-of-AI course spanning classical search, game playing, probabilistic reasoning, and machine learning.</p>
+              <p class="course-projects">
+                <span class="course-projects-label">Key projects:</span>
+                Adversarial game agent (Isolation) · Gaussian Mixture Models with Expectation–Maximization · Hidden Markov Models with Viterbi
+              </p>
+            </li>
+
+            <li class="course">
+              <div class="course-head">
+                <span class="course-code">CS7638</span>
+                <span class="course-name">AI for Robotics</span>
+              </div>
+              <p class="course-desc">Probabilistic robotics — localization, control, and planning, framed around real robot problems.</p>
+              <p class="course-projects">
+                <span class="course-projects-label">Key projects:</span>
+                Kalman Filter · Particle Filter · SLAM (Indiana Drones)
+              </p>
+            </li>
+
+            <li class="course">
+              <div class="course-head">
+                <span class="course-code">CS8001</span>
+                <span class="course-name">Agentic AI Seminar</span>
+              </div>
+              <p class="course-desc">Hands-on seminar on modern LLM patterns — from prompting and RAG through to multi-agent systems.</p>
+              <p class="course-projects">
+                <span class="course-projects-label">Key projects:</span>
+                Retrieval-Augmented Generation · Agentic frameworks (LangGraph, CrewAI) · Multimodal LLMs
+              </p>
+            </li>
+          </ul>
+        </div>
+
+        <div class="school">
+          <div class="prose">
+            <p>
+              <strong>Singapore Management University</strong> · B.Sc. Economics (Hons) &amp; B.BM Finance (Hons) · 2018 — 2022
+            </p>
+          </div>
+
+          <ul class="course-list">
+            <li class="course">
+              <div class="course-head">
+                <span class="course-code">Major</span>
+                <span class="course-name">Data Science &amp; Analytics + Finance</span>
+              </div>
+              <p class="course-desc">Graduated <strong>Summa Cum Laude</strong>. Dean's List 2018–2021.</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section section-alt">
+      <div class="section-inner">
+        <h2 class="section-title">Projects</h2>
+        <p class="section-lede">A handful of side projects and coursework. All on <a href="https://github.com/jiayang97" target="_blank" rel="noopener">GitHub</a>.</p>
+
+        <div class="filters" role="tablist" aria-label="Project filters">
+          <button class="filter is-active" data-filter="all" role="tab" aria-selected="true">All</button>
+          <button class="filter" data-filter="rl" role="tab" aria-selected="false">Reinforcement Learning</button>
+          <button class="filter" data-filter="dl" role="tab" aria-selected="false">Deep Learning</button>
+          <button class="filter" data-filter="genai" role="tab" aria-selected="false">GenAI &amp; Agents</button>
+          <button class="filter" data-filter="mlops" role="tab" aria-selected="false">MLOps</button>
+          <button class="filter" data-filter="other" role="tab" aria-selected="false">Other</button>
+        </div>
+
+        <div class="projects-grid">
+          <article class="project" data-cat="dl">
+            <div class="project-head">
+              <div class="project-cat">Deep Learning · Computer Vision</div>
+              <a class="project-link" href="https://github.com/jiayang97/dehazing-models-comparison" target="_blank" rel="noopener" aria-label="View on GitHub">GitHub ↗</a>
+            </div>
+            <h3>Image dehazing: FFA-Net vs Diffusion</h3>
+            <p>An interactive web tool for comparing two image-dehazing approaches side-by-side, trained and evaluated on aerial imagery from the DOTA dataset.</p>
+            <ul class="project-bullets">
+              <li><strong>FFA-Net</strong> — Feature Fusion Attention Network for single-image dehazing</li>
+              <li><strong>Diffusion Net</strong> — DDPM-based generative dehazing approach</li>
+              <li>Flask backend serving model inference; HTML/JS frontend for live image upload &amp; comparison</li>
+              <li>Built as part of Georgia Tech Deep Learning coursework</li>
+            </ul>
+            <div class="project-stack"><span>PyTorch</span><span>FFA-Net</span><span>DDPM</span><span>Flask</span></div>
+          </article>
+
+          <article class="project" data-cat="rl">
+            <div class="project-head">
+              <div class="project-cat">Reinforcement Learning</div>
+              <a class="project-link" href="https://github.com/jiayang97/Reinforcement-Learning-Lunar-Lander-Continuous" target="_blank" rel="noopener" aria-label="View on GitHub">GitHub ↗</a>
+            </div>
+            <h3>Lunar Lander · DDPG from scratch</h3>
+            <p>A Deep Deterministic Policy Gradient agent implemented from scratch to solve the LunarLanderContinuous environment from Gymnasium.</p>
+            <ul class="project-bullets">
+              <li><strong>Actor–Critic networks</strong> for continuous action spaces</li>
+              <li><strong>Target networks</strong> with soft updates for training stability</li>
+              <li><strong>Experience replay</strong> to break correlations in sequential data</li>
+              <li>Exploration noise, TensorBoard logging, periodic eval &amp; checkpointing</li>
+            </ul>
+            <div class="project-stack"><span>PyTorch</span><span>DDPG</span><span>Gymnasium</span><span>TensorBoard</span></div>
+          </article>
+
+          <article class="project" data-cat="rl">
+            <div class="project-head">
+              <div class="project-cat">Reinforcement Learning</div>
+              <a class="project-link" href="https://github.com/jiayang97/super-mario-reinforcement-learning" target="_blank" rel="noopener" aria-label="View on GitHub">GitHub ↗</a>
+            </div>
+            <h3>Super Mario · PPO with CNN policy</h3>
+            <p>A PPO agent that learns to clear Super Mario Bros levels directly from raw pixel input.</p>
+            <ul class="project-bullets">
+              <li><strong>Proximal Policy Optimization</strong> via Stable-Baselines3</li>
+              <li><strong>CNN policy network</strong> processing stacked visual frames end-to-end</li>
+              <li>Custom Gym wrappers for frame stacking, action shaping, reward design</li>
+              <li>Eval harness + episode recording for visualizing learned behavior</li>
+            </ul>
+            <div class="project-stack"><span>Stable-Baselines3</span><span>PPO</span><span>gym-super-mario-bros</span></div>
+          </article>
+
+          <article class="project" data-cat="genai">
+            <div class="project-head">
+              <div class="project-cat">GenAI &amp; Agents</div>
+              <a class="project-link" href="https://github.com/jiayang97/werewolf-game-with-AI-agents" target="_blank" rel="noopener" aria-label="View on GitHub">GitHub ↗</a>
+            </div>
+            <h3>Werewolf played by LLM agents</h3>
+            <p>A multi-agent simulation of the Werewolf social deduction game where LLM-powered villagers and wolves reason, deceive, and coordinate — with no hardcoded strategy.</p>
+            <ul class="project-bullets">
+              <li><strong>Structured reasoning chains</strong> — agents follow ANALYZE → FORM_BELIEF → PLAN steps each turn</li>
+              <li><strong>Hidden-information coordination</strong> — wolves share intent at night, villagers must infer roles from behavior</li>
+              <li>LangChain orchestration over Gemini, with full game-log replay</li>
+              <li>LLM-powered game summarizer that turns logs into readable narratives</li>
+            </ul>
+            <div class="project-stack"><span>LangChain</span><span>Gemini</span><span>Multi-agent</span><span>Python</span></div>
+          </article>
+
+          <article class="project" data-cat="mlops">
+            <div class="project-head">
+              <div class="project-cat">MLOps</div>
+              <a class="project-link" href="https://github.com/jiayang97/mle_practice_with_titanc_api" target="_blank" rel="noopener" aria-label="View on GitHub">GitHub ↗</a>
+            </div>
+            <h3>Titanic ML · FastAPI service</h3>
+            <p>An end-to-end MLE project taking a model from training to a deployable, containerized REST API with CI.</p>
+            <ul class="project-bullets">
+              <li><strong>scikit-learn RandomForestClassifier</strong> trained &amp; serialized for serving</li>
+              <li><strong>FastAPI + Uvicorn</strong> with typed request/response schemas</li>
+              <li><strong>Dockerized</strong> for portable deployment to Railway / Render</li>
+              <li>GitHub Actions CI runs tests &amp; builds the image on every push</li>
+            </ul>
+            <div class="project-stack"><span>FastAPI</span><span>scikit-learn</span><span>Docker</span><span>GitHub Actions</span></div>
+          </article>
+
+          <article class="project" data-cat="other">
+            <div class="project-head">
+              <div class="project-cat">Web</div>
+              <a class="project-link" href="https://jiayang97.github.io/chess-trainer" target="_blank" rel="noopener" aria-label="Live demo">Live demo ↗</a>
+            </div>
+            <h3>Chess trainer</h3>
+            <p>A browser-based chess trainer that lets you play against a Stockfish engine of adjustable strength, with real-time blunder detection.</p>
+            <ul class="project-bullets">
+              <li><strong>Stockfish.js</strong> engine running in-browser, Elo configurable from 600–2300</li>
+              <li><strong>Real-time blunder detection</strong> with suggested better moves &amp; position evaluation</li>
+              <li>Chessboard.js for interactive UI; fully responsive desktop &amp; mobile</li>
+              <li>Live demo deployed via GitHub Pages</li>
+            </ul>
+            <div class="project-stack"><span>JavaScript</span><span>Stockfish.js</span><span>Chessboard.js</span></div>
+          </article>
+
+          <article class="project" data-cat="other">
+            <div class="project-head">
+              <div class="project-cat">Web</div>
+              <a class="project-link" href="https://github.com/jiayang97/coffee-vouchers" target="_blank" rel="noopener" aria-label="View on GitHub">GitHub ↗</a>
+            </div>
+            <h3>Coffee vouchers</h3>
+            <p>A tiny single-page web app for tracking the redemption of 10 digital coffee vouchers — built as a quick utility for friends.</p>
+            <ul class="project-bullets">
+              <li>Vanilla JavaScript frontend, no build step</li>
+              <li><strong>Firebase Firestore</strong> backend with security rules locked down to redemption-only</li>
+              <li>Hosted on GitHub Pages</li>
+            </ul>
+            <div class="project-stack"><span>JavaScript</span><span>Firebase</span><span>Firestore</span></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="section-inner">
+        <h2 class="section-title">Contact</h2>
+        <div class="prose">
+          <p>
+            Always happy to chat about ML, RL, GenAI, or any interesting problem. The
+            quickest way to reach me is <a href="mailto:jiayangchua@hotmail.com">email</a>,
+            or find me on <a href="https://github.com/jiayang97" target="_blank" rel="noopener">GitHub</a>.
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Chua Jia Yang</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
