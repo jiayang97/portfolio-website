@@ -108,6 +108,30 @@
           <ul class="course-list">
             <li class="course">
               <div class="course-head">
+                <span class="course-code">CS6200</span>
+                <span class="course-name">Introduction to Operating Systems</span>
+              </div>
+              <p class="course-desc">Systems-level course on processes, threads, synchronization, IPC, and distributed services — implemented in C.</p>
+              <p class="course-projects">
+                <span class="course-projects-label">Key projects:</span>
+                Multithreaded GETFILE server (boss–worker pool) · Distributed file transfer over gRPC · Inter-process cache via shared memory
+              </p>
+            </li>
+
+            <li class="course">
+              <div class="course-head">
+                <span class="course-code">CS6250</span>
+                <span class="course-name">Computer Networks</span>
+              </div>
+              <p class="course-desc">Survey of modern networking — from link-layer protocols up through SDN, BGP, and internet measurement.</p>
+              <p class="course-projects">
+                <span class="course-projects-label">Key projects:</span>
+                Spanning Tree &amp; Distance Vector routing · SDN with Mininet/POX · BGP hijacking &amp; measurement
+              </p>
+            </li>
+
+            <li class="course">
+              <div class="course-head">
                 <span class="course-code">CS6601</span>
                 <span class="course-name">Artificial Intelligence</span>
               </div>
@@ -132,6 +156,30 @@
 
             <li class="course">
               <div class="course-head">
+                <span class="course-code">CS7642</span>
+                <span class="course-name">Reinforcement Learning &amp; Decision Making</span>
+              </div>
+              <p class="course-desc">Theory and practice of RL — from tabular methods through deep and multi-agent RL.</p>
+              <p class="course-projects">
+                <span class="course-projects-label">Key projects:</span>
+                Q-learning &amp; SARSA foundations · DDPG on Lunar Lander · MAPPO multi-agent on Overcooked
+              </p>
+            </li>
+
+            <li class="course">
+              <div class="course-head">
+                <span class="course-code">CS7643</span>
+                <span class="course-name">Deep Learning</span>
+              </div>
+              <p class="course-desc">Modern deep learning — convolutional and recurrent architectures, transformers, and generative models.</p>
+              <p class="course-projects">
+                <span class="course-projects-label">Key projects:</span>
+                CNNs from scratch · NLP with RNNs &amp; Transformers · Generative models (VAEs &amp; GANs)
+              </p>
+            </li>
+
+            <li class="course">
+              <div class="course-head">
                 <span class="course-code">CS8001</span>
                 <span class="course-name">Agentic AI Seminar</span>
               </div>
@@ -140,6 +188,14 @@
                 <span class="course-projects-label">Key projects:</span>
                 Retrieval-Augmented Generation · Agentic frameworks (LangGraph, CrewAI) · Multimodal LLMs
               </p>
+            </li>
+
+            <li class="course">
+              <div class="course-head">
+                <span class="course-code">Seminar</span>
+                <span class="course-name">Object-Oriented Programming with Java</span>
+              </div>
+              <p class="course-desc">A seminar to pick up the fundamentals of Java — classes, inheritance, polymorphism, generics, exceptions, and JavaFX.</p>
             </li>
           </ul>
         </div>
@@ -218,6 +274,10 @@
             </div>
             <h3>Super Mario · PPO with CNN policy</h3>
             <p>A PPO agent that learns to clear Super Mario Bros levels directly from raw pixel input.</p>
+            <video class="project-video" controls muted loop playsinline preload="metadata" aria-label="Trained PPO agent clearing a Super Mario level">
+              <source src="assets/mario_ppo_gameplay.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
             <ul class="project-bullets">
               <li><strong>Proximal Policy Optimization</strong> via Stable-Baselines3</li>
               <li><strong>CNN policy network</strong> processing stacked visual frames end-to-end</li>
